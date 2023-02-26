@@ -1,0 +1,58 @@
+from Book import Book
+import datetime
+
+
+def fill_data_base(library, statistics):
+
+    '''Function to load several books into the library'''
+
+
+    library.add_book(Book('The Great Gatsby', 'F. Scott Fitzgerald', 'Scribner', 1925, datetime.date(2021, 3, 15), 2).get_book(), statistics)
+    library.add_book(Book('To Kill a Mockingbird', 'Harper Lee', 'J. B. Lippincott & Co.', 1960, datetime.date(2020, 5, 7), 1).get_book(), statistics)
+    library.add_book(Book('1984', 'George Orwell', 'Secker & Warburg', 1949, datetime.date(2021, 8, 22), 3).get_book(), statistics)
+    library.add_book(Book('The Catcher in the Rye', 'J. D. Salinger', 'Little, Brown and Company', 1951, datetime.date(2021, 1, 5), 2).get_book(), statistics)
+    library.add_book(Book('Pride and Prejudice', 'Jane Austen', 'T. Egerton, Whitehall', 1813, datetime.date(2022, 2, 10), 1).get_book(), statistics)
+    library.add_book(Book('One Hundred Years of Solitude', 'Gabriel Garcia Marquez', 'Harper & Row', 1967, datetime.date(2020, 12, 18), 1).get_book(), statistics)
+    library.add_book(Book('The Lord of the Rings', 'J. R. R. Tolkien', 'George Allen & Unwin', 1954, datetime.date(2021, 6, 30), 3).get_book(), statistics)
+    library.add_book(Book('The Hobbit', 'J. R. R. Tolkien', 'George Allen & Unwin', 1937, datetime.date(2022, 2, 1), 2).get_book(), statistics)
+    library.add_book(Book('The Picture of Dorian Gray', 'Oscar Wilde', 'Lippincott\'s Monthly Magazine', 1890, datetime.date(2021, 9, 9), 1).get_book(), statistics)
+    library.add_book(Book('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', 'George Newnes Ltd.', 1892, datetime.date(2021, 7, 12), 2).get_book(), statistics)
+    library.add_book(Book('Brave New World', 'Aldous Huxley', 'Chatto & Windus', 1932, datetime.date(2022, 1, 28), 1).get_book(), statistics)
+    library.add_book(Book('The Odyssey', 'Homer', 'Various ancient Greek publishers', -800, datetime.date(2021, 4, 3), 1).get_book(), statistics)
+    library.add_book(Book('Crime and Punishment', 'Fyodor Dostoevsky', 'The Russian Messenger', 1866, datetime.date(2021, 11, 20), 3).get_book(), statistics)
+    library.add_book(Book('Jane Eyre', 'Charlotte Bronte', 'Smith, Elder & Co.', 1847, datetime.date(2022, 2, 16), 2).get_book(), statistics)
+    library.add_book(Book('The Grapes of Wrath', 'John Steinbeck', 'The Viking Press', 1939, datetime.date(2020, 8, 7), 1).get_book(), statistics)
+    library.add_book(Book('The Sound and the Fury', 'William Faulkner', 'Random House', 1929, datetime.date(2021, 10, 15), 2).get_book(), statistics)
+    library.add_book(Book('Their Eyes Were Watching God', 'Zora Neale Hurston', 'J. B. Lippincott', 1937, datetime.date(2022, 2, 8), 1).get_book(), statistics)
+    library.add_book(Book('The Sun Also Rises', 'Ernest Hemingway', 'Scribner', 1926, datetime.date(2021, 5, 20), 1).get_book(), statistics)
+    library.add_book(Book('The Great Gatsby', 'F. Scott Fitzgerald', 'Scribner', 1925, datetime.date(2021, 11, 11), 1).get_book(), statistics)
+    library.add_book(Book('The Hobbit', 'J. R. R. Tolkien', 'George Allen & Unwin', 1937, datetime.date(2022, 2, 1), 1).get_book(), statistics)
+    library.add_book(Book('The Catcher in the Rye', 'J. D. Salinger', 'Little, Brown and Company', 1951, datetime.date(2021, 12, 5), 2).get_book(), statistics)
+    library.add_book(Book('One Hundred Years of Solitude', 'Gabriel Garcia Marquez', 'Harper & Row', 1967, datetime.date(2020, 11, 30), 1).get_book(), statistics)
+    library.add_book(Book('To Kill a Mockingbird', 'Harper Lee', 'J. B. Lippincott & Co.', 1960, datetime.date(2021, 3, 2), 3).get_book(), statistics)
+    library.add_book(Book('The Lord of the Rings', 'J. R. R. Tolkien', 'George Allen & Unwin', 1954, datetime.date(2021, 9, 17), 2).get_book(), statistics)
+    library.add_book(Book('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', 'George Newnes Ltd.', 1892, datetime.date(2021, 8, 6), 1).get_book(), statistics)
+    library.add_book(Book('Brave New World', 'Aldous Huxley', 'Chatto & Windus', 1932, datetime.date(2022, 1, 28), 1).get_book(), statistics)
+    library.add_book(Book('The Odyssey', 'Homer', 'Various ancient Greek publishers', -800, datetime.date(2021, 7, 14), 1).get_book(), statistics)
+    library.add_book(Book('Crime and Punishment', 'Fyodor Dostoevsky', 'The Russian Messenger', 1866, datetime.date(2021, 11, 20), 2).get_book(), statistics)
+    library.add_book(Book('Jane Eyre', 'Charlotte Bronte', 'Smith, Elder & Co.', 1847, datetime.date(2022, 2, 22), 1).get_book(), statistics)
+    library.add_book(Book('Pride and Prejudice', 'Jane Austen', 'T. Egerton, Whitehall', 1813, datetime.date(2021, 6, 5), 2).get_book(), statistics)
+    library.add_book(Book('The Great Gatsby', 'F. Scott Fitzgerald', 'Scribner', 1925, datetime.date(2022, 1, 1), 1).get_book(), statistics)
+    library.add_book(Book('One Hundred Years of Solitude', 'Gabriel Garcia Marquez', 'Harper & Row', 1967, datetime.date(2021, 12, 31), 1).get_book(), statistics)
+    library.add_book(Book('To Kill a Mockingbird', 'Harper Lee', 'J. B. Lippincott & Co.', 1960, datetime.date(2022, 2, 14), 1).get_book(), statistics)
+    library.add_book(Book('The Lord of the Rings', 'J. R. R. Tolkien', 'George Allen & Unwin', 1954, datetime.date(2021, 11, 30), 1).get_book(), statistics)
+    library.add_book(Book('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', 'George Newnes Ltd.', 1892, datetime.date(2022, 1, 15), 1).get_book(), statistics)
+    library.add_book(Book('Brave New World', 'Aldous Huxley', 'Chatto & Windus', 1932, datetime.date(2022, 2, 9), 1).get_book(), statistics)
+    library.add_book(Book('The Odyssey', 'Homer', 'Various ancient Greek publishers', -800, datetime.date(2021, 10, 20), 1).get_book(), statistics)
+    library.add_book(Book('Crime and Punishment', 'Fyodor Dostoevsky', 'The Russian Messenger', 1866, datetime.date(2022, 1, 25), 1).get_book(), statistics)
+    library.add_book(Book('Jane Eyre', 'Charlotte Bronte', 'Smith, Elder & Co.', 1847, datetime.date(2021, 11, 10), 1).get_book(), statistics)
+    library.add_book(Book('Pride and Prejudice', 'Jane Austen', 'T. Egerton, Whitehall', 1813, datetime.date(2022, 2, 5), 1).get_book(), statistics)
+    library.add_book(Book('1984', 'George Orwell', 'Secker & Warburg', 1949, datetime.date(2022, 2, 16), 1).get_book(), statistics)
+    library.add_book(Book('Of Mice and Men', 'John Steinbeck', 'Covici Friede', 1937, datetime.date(2021, 12, 3), 1).get_book(), statistics)
+    library.add_book(Book('Lord of the Flies', 'William Golding', 'Faber and Faber', 1954, datetime.date(2021, 10, 1), 1).get_book(), statistics)
+    library.add_book(Book('The Bell Jar', 'Sylvia Plath', 'Heinemann', 1963, datetime.date(2021, 11, 28), 1).get_book(), statistics)
+    library.add_book(Book('Wuthering Heights', 'Emily Bronte', 'Thomas Cautley Newby', 1847, datetime.date(2022, 2, 21), 1).get_book(), statistics)
+
+    library.add_book(Book('Jane Eyre_2', 'Charlotte Bronte', 'Smith, Elder & Co.', 1848, datetime.date(2021, 11, 10), 2).get_book(), statistics)
+    library.add_book(Book('Jane Eyre_3', 'Charlotte Bronte', 'Smith, Elder & Co.', 1849, datetime.date(2021, 11, 10), 3).get_book(), statistics)
+    library.add_book(Book('Jane Eyre_4', 'Charlotte Bronte', 'Smith, Elder & Co.', 1850, datetime.date(2021, 11, 10), 1).get_book(), statistics)
